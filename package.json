@@ -1,0 +1,19 @@
+{
+  "name": "gasheetsexporter",
+  "version": "1.0.0",
+  "description": "Google Analytics to Google Sheets Exporter",
+  "main": "index.gs",
+  "scripts": {
+    "push": "clasp push",
+    "build": "tsc"
+  },
+  "author": "Arist0craft <dimnktn@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@google/clasp": "^2.4.1",
+    "@types/google-apps-script": "^1.0.45"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}

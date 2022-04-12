@@ -1,0 +1,23 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+  const form = document.forms.reportCreation;
+
+
+  function addAccountOptions() {
+    const accounts = getForm();
+    const selector = form.elements.account;
+    for (const account of accounts) {
+      const option = document.createElement("option");
+      option.innerText = account.displayName;
+      option.value = account.name;
+
+      selector.appendChild(option)
+    }
+  }
+
+
+  window.addEventListener("load", function(){
+    addAccountOptions();
+
+  })
+</script>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <!-- Use a templated HTML printing scriptlet to import common stylesheet -->
+    <?!= HtmlService.createHtmlOutputFromFile('Stylesheet').getContent(); ?>
+        
+
+    <!-- Use a templated HTML printing scriptlet to import JavaScript. -->
+    <?!= HtmlService.createHtmlOutputFromFile('SidebarJavaScript').getContent(); ?>
+  </head>
+  <body>
+    <form name="reportCreation" class="sidebar">
+      <section>
+        <h2>1) Name your report</h2>
+        <div class="row form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" class="full">
+        </div>
+      </section>
+      <section>
+        <h2>2) Account</h2>
+        <div class="row form-group">
+          <label for="account">Account</label>
+          <select name="account">
+          </select>
+        </div>
+      </section>
+      <section>
+        <h2>3) Property</h2>
+        <div class="row form-group">
+          <label for="property">Property</label>
+          <input type="text" name="property" class="full" disabled>
+        </div>
+      </section>
+      <section>
+        <h2>4) View</h2>
+        <div class="row form-group">
+          <label for="property">Property</label>
+          <input type="text" name="property" class="full" disabled>
+        </div>
+      </section>      
+    </form>
+
+  </body>
+</html>

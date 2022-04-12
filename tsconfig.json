@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/js",
+        "rootDir": "./src",
+        "target": "ES2019",
+        "types": ["google-apps-script"],
+        "lib": ["ES2019"]
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+
+}

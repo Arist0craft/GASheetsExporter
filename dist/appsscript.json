@@ -1,0 +1,29 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "AnalyticsReporting",
+        "version": "v4",
+        "serviceId": "analyticsreporting"
+      },
+      {
+        "userSymbol": "AnalyticsData",
+        "version": "v1beta",
+        "serviceId": "analyticsdata"
+      },
+      {
+        "userSymbol": "Analytics",
+        "version": "v3",
+        "serviceId": "analytics"
+      },
+      {
+        "userSymbol": "AnalyticsAdmin",
+        "version": "v1alpha",
+        "serviceId": "analyticsadmin"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
